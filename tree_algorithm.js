@@ -1,3 +1,4 @@
+//Алгоритм обхода дерева n-размерности
 const tree = [
     {
         v: 5,
@@ -53,7 +54,7 @@ const recursive = (tree) => {
 }
 
 //Итеративный подход
-//Эмитация Стека - LIFO
+//Эмитация, применение структуры - Стека LIFO
 const iteration = (tree) => {
     if (!tree.length) {
         return 0
